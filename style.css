@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Open+Sans&family=Palanquin&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #045a65;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  width: 100%;
+}
+
+h2 {
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  width: 480px;
+  padding-bottom: 10px;
+  box-shadow: 4px 4px 5px #888888;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+h4 {
+  color: red;
+}
+
+p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Header */
+
+header {
+  color: #057786;
+  background-color: #fff;
+  padding: 15px 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 4px -2px #000;
+}
+
+nav {
+  width: 400px;
+  float: right;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+}
+
+.home-logo {
+  float: left;
+  width: 60px;
+  border-radius: 10px;
+}
+
+a.active {
+  border-bottom: 1px solid #045a65;
+}
+/* Main */
+
+main {
+  color: #fff;
+  background-color: #057786;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 10px -3px #000;
+}
+
+.main-about {
+  padding: 90px 60px;
+}
+
+.introduction {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.introduction h1 {
+  padding-top: 7%;
+}
+
+.quote {
+  font-family: Kalam;
+  font-size: 56px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.project-section {
+  background-color: #fff;
+  color: #045a65;
+  padding: 0 40px;
+  margin: 10px 0;
+}
+
+.hobby-img,
+.project-img {
+  width: 300px;
+  float: left;
+  margin: 20px 20px 10px 0;
+}
+
+.float-right {
+  float: right;
+  margin: 20px 0 10px 20px;
+}
+
+.portfolio-h2 {
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+
+/* Footer */
+
+footer {
+  background-color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-shadow: 0 -2px 4px -2px #000;
+}
+
+.contact-logo {
+  width: 50px;
+  margin: 0 20px;
+}
+
+img {
+  transition: all 0.5s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
