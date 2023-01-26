@@ -131,6 +131,31 @@ main {
   margin-bottom: 0;
 }
 
+.skills {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 4px solid rgb(49, 49, 49);
+  border-radius: 10px;
+  background-color: #fff;
+  color: #045a65;
+  padding: 5px;
+}
+.skill > span {
+  font-size: 1.2rem;
+}
+.skill-logo {
+  width: 40px;
+}
+
 /* Footer */
 
 footer {
